@@ -1,0 +1,67 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.yaml-helper {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  cursor: default;
+  -webkit-user-select: none;
+  min-width: 100px;
+  width: 400px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+
+  .yaml-helper-resize-handle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 10px;
+    cursor: col-resize;
+    z-index: 3;
+    left: -5px;
+  }
+
+  .header {
+    .header-item {
+      padding-bottom: 5px;
+      height: 20px;
+      overflow: hidden;
+    }
+  }
+
+  .input-block {
+    .input-block-item {
+      padding-bottom: 5px;
+    }
+  }
+
+  .yaml-helper-query-editor {
+    margin-bottom: 5px;
+  }
+
+  .results-block {
+    position: absolute;
+    top: 55px;
+    left: 5px;
+    right: 5px;
+    bottom: 0;
+    overflow: auto;
+    ul.results-list {
+      list-style: none;
+      padding-left: 5px;
+      > li {
+        cursor: pointer;
+        padding: 5px;
+        .line-number {
+          margin-right: 15px;
+        }
+      }
+    }
+  }
+}

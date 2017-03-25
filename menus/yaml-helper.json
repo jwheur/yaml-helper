@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Show YAML Helper",
+        "command": "yaml-helper:show"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "YAML Helper",
+          "submenu": [
+            {
+              "label": "Show",
+              "command": "yaml-helper:show"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

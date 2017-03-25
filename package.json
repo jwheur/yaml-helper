@@ -1,0 +1,20 @@
+{
+  "name": "yaml-helper",
+  "main": "./lib/yaml-helper",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "yaml-helper:show"
+  },
+  "repository": "https://github.com/atom/yaml-helper",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "etch": "^0.11.0",
+    "fs-plus": "^3.0.0",
+    "fuzzaldrin": "^2.1.0"
+  }
+}
