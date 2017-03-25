@@ -52,10 +52,14 @@
     right: 5px;
     bottom: 0;
     overflow: auto;
-    ul.results-list {
+    ol.results-list {
       list-style: none;
+      max-height: none;
+      overflow-x: auto;
+      padding: 0;
+      margin: 0;
       padding-left: 5px;
-      > li {
+      > li.result-item {
         cursor: pointer;
         padding: 5px;
         .line-number {

@@ -1,5 +1,6 @@
 {
   "atom-workspace": {
-    "cmd-shift-y": "yaml-helper:show"
+    "cmd-y": "yaml-helper:show",
+    "cmd-shift-y": "yaml-helper:hide"
   }
 }
