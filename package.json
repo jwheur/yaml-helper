@@ -1,15 +1,11 @@
 {
   "name": "yaml-helper",
   "main": "./lib/yaml-helper",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "Search for YAML keys and view the cursor's current YAML path in your status bar",
   "keywords": [],
   "activationCommands": {
-    "atom-workspace": [
-      "yaml-helper:toggle",
-      "yaml-helper:show",
-      "yaml-helper:toggle-status-bar"
-    ]
+    "atom-workspace": ["yaml-helper:toggle", "yaml-helper:show", "yaml-helper:toggle-status-bar"]
   },
   "repository": "https://github.com/jwheur/yaml-helper",
   "license": "MIT",
