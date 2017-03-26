@@ -11,8 +11,16 @@
               "command": "yaml-helper:show"
             },
             {
+              "label": "Toggle",
+              "command": "yaml-helper:toggle"
+            },
+            {
               "label": "Hide",
               "command": "yaml-helper:hide"
+            },
+            {
+              "label": "Toggle Status Bar",
+              "command": "yaml-helper:toggle-status-bar"
             }
           ]
         }

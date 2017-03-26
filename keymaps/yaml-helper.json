@@ -1,6 +1,7 @@
 {
   "atom-workspace": {
-    "cmd-y": "yaml-helper:show",
-    "cmd-shift-y": "yaml-helper:hide"
+    "cmd-y": "yaml-helper:toggle",
+    "cmd-alt-y": "yaml-helper:hide",
+    "cmd-shift-y": "yaml-helper:toggle-status-bar"
   }
 }

@@ -5,12 +5,19 @@
   "description": "A short description of your package",
   "keywords": [],
   "activationCommands": {
-    "atom-workspace": "yaml-helper:show"
+    "atom-workspace": ["yaml-helper:toggle", "yaml-helper:show", "yaml-helper:toggle-status-bar"]
   },
   "repository": "https://github.com/atom/yaml-helper",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
   },
   "dependencies": {
     "etch": "^0.11.0",
