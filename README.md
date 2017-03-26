@@ -13,7 +13,7 @@ If the search pane is already shown but the search input is not focused, the sea
 
 If the search input is already focused, this shortcut will hide the search pane.
 
-## View the current YAML path
+## View your cursor's current YAML path in the status bar
 
 Default shortcut: `cmd-shift-y`
 
