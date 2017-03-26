@@ -20,4 +20,12 @@ Default shortcut: `cmd-shift-y`
 ![YAML status bar](http://oi67.tinypic.com/2jcsmci.jpg)
 
 ## Shortcuts
+
+```
+'atom-workspace':
+  'cmd-y': 'yaml-helper:toggle'
+  'cmd-alt-y': 'yaml-helper:hide'
+  'cmd-shift-y': 'yaml-helper:toggle-status-bar'
+```
+
 Similar to all other atom packages, you can customize the shortcuts using your keymap file.
