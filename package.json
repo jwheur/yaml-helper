@@ -7,7 +7,7 @@
   "activationCommands": {
     "atom-workspace": ["yaml-helper:toggle", "yaml-helper:show", "yaml-helper:toggle-status-bar"]
   },
-  "repository": "https://github.com/atom/yaml-helper",
+  "repository": "https://github.com/jwheur/yaml-helper",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
