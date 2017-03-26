@@ -1,7 +1,7 @@
 {
   "name": "yaml-helper",
   "main": "./lib/yaml-helper",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Search for YAML keys and view the cursor's current YAML path in your status bar",
   "keywords": [],
   "activationCommands": {
