@@ -62,8 +62,19 @@
       > li.result-item {
         cursor: pointer;
         padding: 5px;
-        .line-number {
-          margin-right: 15px;
+        clear: both;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+        .result-content {
+          padding-right: 5px;
+          .line-number {
+            margin-right: 15px;
+          }
+        }
+        .copy-button {
+          align-self: flex-end;
+          margin-left: auto;
         }
       }
     }
@@ -72,4 +83,12 @@
 
 .yaml-helper-status-view.inline-block {
   max-width: none;
+  .yaml-status-info-label {
+    display: inline-block;
+  }
+  .yaml-status-copy-label {
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 5px;
+  }
 }
